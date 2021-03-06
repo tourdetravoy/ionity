@@ -1,10 +1,711 @@
-Group,Title,Image,Description,Address,Latitude,Longitude,Found Address,Match Quality,Source
-a,Trinity College,https://www.edx.org/sites/default/files/trinity1.jpg,"Not in the link <a href=""http://www.trincoll.edu"" target=""_blank"">view website</a> more not in the link","300 Summit St, Hartford CT 06106",41.745167,-72.69263,"300 SUMMIT ST, HARTFORD, CT, 06106",Exact,US Census
-a,Wesleyan University,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://wesleyan.edu"" target=""_blank"">view website</a>",45 Wyllys Ave Middletown CT 06459,41.55709,-72.65691,"45 WYLLYS AVE, MIDDLETOWN, CT, 06459",Exact,US Census
-a,Connecticut College,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://conncoll.edu"" target=""_blank"">view website</a>","270 Mohegan Ave, New London CT",41.381435,-72.10469,"270 MOHEGAN AVE PKWY, NEW LONDON, CT, 06320",Match,US Census
-a,Yale University,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://yale.edu"" target=""_blank"">view website</a>",149 Elm St New Haven CT,41.309155,-72.92635,"149 ELM ST, NEW HAVEN, CT, 06511",Match,US Census
-a,University of Connecticut-Storrs,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://uconn.edu"" target=""_blank"">view website</a>","369 Fairfield Way, Storrs CT 06269",41.80665,-72.25352,"369 FAIRFIELD RD, STORRS, CT, 06269",Match,US Census
-a,Capital Community College,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://capitalcc.edu"" target=""_blank"">view website</a>",950 Main St Hartford CT,41.69861,-72.72414,"950 MAIN ST, HARTFORD, CT, 06111",Match,US Census
-b,Dinosaur State Park,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""www.dinosaurstatepark.org/"" target=""_blank"">view website</a>",400 West St Rock Hill CT 06067,41.652546,-72.65743,"400 WEST ST, ROCKY HILL, CT, 06067",Match,US Census
-b,Hammonasset State Park,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""www.ct.gov/deep/hammonasset"" target=""_blank"">view website</a>","1288 Boston Post Road, Madison CT 06443",41.273247,-72.56934,"1288 BOSTON POST RD, MADISON, CT, 06443",Match,US Census
-c,State Capitol Building,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,State government office,"210 Capitol Ave, Hartford CT 06106",41.762848,-72.68245,"210 CAPITOL AVE, HARTFORD, CT, 06106",Exact,US Census
+Latitude,Longitude,Title,Description
+48.273996,-2.187398,Rennes,"Number of CCS Chargers: 4
+Station open 24/7"
+49.455104,15.593272,Jihlava,"Number of CCS Chargers: 2
+Station open 24/7"
+49.453814,15.59148,Jihlava,"Number of CCS Chargers: 2
+Station open 24/7"
+63.01096,7.97538,Molde,"Number of CCS Chargers: 4
+Station open 24/7"
+42.578429,2.846994,Perpignan,"Number of CCS Chargers: 4
+Station open 24/7"
+42.577784,2.848341,Perpignan,"Number of CCS Chargers: 4
+Station open 24/7"
+61.57475,6.48347,Leikanger,"Number of CCS Chargers: 4
+Station open 24/7"
+38.824574,-3.396857,Linares,"Number of CCS Chargers: 4
+Station open 24/7"
+52.392241,10.753713,Braunschweig,"Number of CCS Chargers: 4
+Station open 24/7"
+51.503064,5.414372,Eindhoven,"Number of CCS Chargers: 4
+Station open 24/7"
+61.74251,17.07861,Bollnäs,"Number of CCS Chargers: 4
+Station open 24/7"
+51.926279,10.143238,Braunschweig,"Number of CCS Chargers: 4
+Station open 24/7"
+51.928028,10.14173,Braunschweig,"Number of CCS Chargers: 4
+Station open 24/7"
+52.31562,13.494702,Berlin,"Number of CCS Chargers: 4
+Station open 24/7"
+51.513848,-2.109768,Bath,"Number of CCS Chargers: 4
+Station open 24/7"
+59.88546,17.66622,Uppsala,"Number of CCS Chargers: 4
+Station open 24/7"
+45.275563,4.825571,Saint-Étienne,"Number of CCS Chargers: 4
+Station open 24/7"
+43.182391,-5.811289,Oviedo,"Number of CCS Chargers: 2
+Station open 24/7"
+45.660128,3.153525,Clermont-Ferrand,"Number of CCS Chargers: 4
+Station open 24/7"
+47.380371,19.055785,Budapest,"Number of CCS Chargers: 2
+Station open 24/7"
+42.732379,-1.618726,Pamplona,"Number of CCS Chargers: 2
+Station open 24/7"
+45.188934,-0.492422,Bordeaux,"Number of CCS Chargers: 4
+Station open 24/7"
+47.665885,1.387757,Orléans,"Number of CCS Chargers: 4
+Station open 24/7"
+48.23192,7.402639,Freiburg,"Number of CCS Chargers: 4
+Station open 24/7"
+47.664023,1.387813,Orléans,"Number of CCS Chargers: 4
+Station open 24/7"
+43.92911,10.22261,Pisa,"Number of CCS Chargers: 4
+Station open 24/7"
+44.870544,3.253033,,"Number of CCS Chargers: 4
+Station open 24/7"
+50.299926,8.2347,Wiesbaden,"Number of CCS Chargers: 4
+Station open 24/7"
+46.573538,-1.118014,La Rochelle,"Number of CCS Chargers: 4
+Station open 24/7"
+51.094361,1.046817,Dover,"Number of CCS Chargers: 4
+Station open 24/7"
+51.474082,7.151429,Essen,"Number of CCS Chargers: 4
+Station open 24/7"
+45.610095,-0.598651,La Rochelle,"Number of CCS Chargers: 4
+Station open 24/7"
+46.606361,15.663762,Maribor,"Number of CCS Chargers: 4
+Station open 24/7"
+45.2374,11.76287,Ferrara,"Number of CCS Chargers: 4
+Station open 24/7"
+46.609599,15.661929,Maribor,"Number of CCS Chargers: 4
+Station open 24/7"
+62.11837,10.61407,,"Number of CCS Chargers: 4
+Station open 24/7"
+43.418629,-0.584799,Tarbes,"Number of CCS Chargers: 4
+Station open 24/7"
+37.57169,14.4797,Catania,"Number of CCS Chargers: 4
+Station open 24/7"
+52.424872,10.745689,Braunschweig,"Number of CCS Chargers: 6
+Station open 24/7"
+40.458398,-3.616092,Madrid,Campo de las Naciones
+54.99774,12.0007,Sorø,"Number of CCS Chargers: 4
+Station open 24/7"
+45.611787,5.212795,Lyon,"Number of CCS Chargers: 4
+Station open 24/7"
+45.79725,12.81914,Udine,"Number of CCS Chargers: 4
+Station open 24/7"
+48.09518,-0.693474,Le Mans,"Number of CCS Chargers: 4
+Station open 24/7"
+46.751937,2.417075,Bourges,"Number of CCS Chargers: 4
+Station open 24/7"
+46.751623,2.417606,Bourges,"Number of CCS Chargers: 4
+Station open 24/7"
+45.02694,9.73478,Parma,"Number of CCS Chargers: 5
+Station open 24/7"
+49.532356,12.13491,Regensburg,"Number of CCS Chargers: 4
+Station open 24/7"
+49.215116,6.171845,Metz,"Number of CCS Chargers: 4
+Station open 24/7"
+48.69253,12.672979,Regensburg,"Number of CCS Chargers: 4
+Station open 24/7"
+48.219137,10.127765,Ulm,"Number of CCS Chargers: 4
+Station open 24/7"
+43.999633,4.700191,Nîmes,"Number of CCS Chargers: 4
+Station open 24/7"
+43.985279,3.183078,Montpellier,"Number of CCS Chargers: 4
+Station open 24/7"
+55.67309,24.33591,Panevežys,"Number of CCS Chargers: 2
+Station open 24/7"
+47.852405,2.684731,Orléans,"Number of CCS Chargers: 4
+Station open 24/7"
+40.63193,15.81358,Potenza,"Number of CCS Chargers: 4
+Station open 24/7"
+45.673865,5.929976,Annecy,"Number of CCS Chargers: 4
+Station open 24/7"
+51.06441,2.673611,Brugge,"Number of CCS Chargers: 4
+Station open 24/7"
+49.984404,14.602629,Prague,"Number of CCS Chargers: 2
+Station open 24/7"
+58.00147,14.45086,Jönköping,"Number of CCS Chargers: 4
+Station open 24/7"
+41.643444,0.931306,Tarragona,"Number of CCS Chargers: 4
+Station open 24/7"
+53.253234,-6.5698138,Dublin,"Number of CCS Chargers: 4
+Station open 24/7"
+43.42185,-0.598593,Tarbes,"Number of CCS Chargers: 4
+Station open 24/7"
+44.171306,0.60966,Agen,"Number of CCS Chargers: 4
+Station open 24/7"
+44.004071,4.703626,Nîmes,"Number of CCS Chargers: 4
+Station open 24/7"
+54.81854,23.85809,Kaunas,"Number of CCS Chargers: 2
+Station open 24/7"
+50.863745,-3.38449,Exeter,"Number of CCS Chargers: 4
+Station open 24/7"
+48.126677,0.623299,Le Mans,"Number of CCS Chargers: 4
+Station open 24/7"
+48.125475,0.622302,Le Mans,"Number of CCS Chargers: 4
+Station open 24/7"
+56.20688,15.64293,Karlskrona,"Number of CCS Chargers: 4
+Station open 24/7"
+51.305255,-0.40673,London,"Number of CCS Chargers: 6
+Station open 24/7"
+46.08704,11.1111,Trento,"Number of CCS Chargers: 4
+Station open 24/7"
+50.833837,9.570775,Kassel,"Number of CCS Chargers: 4
+Station open 24/7"
+38.09985,13.34618,Palermo,"Number of CCS Chargers: 2
+Station open 24/7"
+43.922931,4.91204,Nîmes,"Number of CCS Chargers: 4
+Station open 24/7"
+52.386433,9.998919,Hannover,"Number of CCS Chargers: 4
+Station open 24/7"
+61.24266,10.4335,Lillehammer,"Number of CCS Chargers: 4
+Station open 24/7"
+45.33552,9.10753,Milan,"Number of CCS Chargers: 4
+Station open 24/7"
+53.2482657,-6.5964347,Dublin,"Number of CCS Chargers: 4
+Station open 24/7"
+60.82244,9.55347,Lillehammer,"Number of CCS Chargers: 4
+Station open 24/7"
+52.013772,-0.203003,Luton,"Number of CCS Chargers: 4
+Station open 24/7"
+47.223166,5.010984,Dijon,"Number of CCS Chargers: 4
+Station open 24/7"
+63.324643,10.306073,Trondheim,"Number of CCS Chargers: 4
+Station open 24/7"
+45.50105,11.43627,Verona,"Number of CCS Chargers: 4
+Station open 24/7"
+53.713494,-2.477038,Manchester,"Number of CCS Chargers: 4
+Station open 24/7"
+46.127822,7.059829,Sion,"Number of CCS Chargers: 4
+Station open 24/7"
+44.24289,12.08182,Ravenna,"Number of CCS Chargers: 4
+Station open 24/7"
+45.907702,15.3708,Karlovac,"Number of CCS Chargers: 2
+Station open 24/7"
+56.419402,-3.463082,Perth,"Number of CCS Chargers: 4
+Station open 24/7"
+43.9592,8.13416,Monaco,"Number of CCS Chargers: 4
+Station open 24/7"
+48.411614,10.914898,Augsburg,"Number of CCS Chargers: 4
+Station open 24/7"
+50.054708,8.908177,Frankfurt,"Number of CCS Chargers: 4
+Station open 24/7"
+41.311642,-2.002738,,"Number of CCS Chargers: 2
+Station open 24/7"
+41.31261,-2.00133,Zaragoza,"Number of CCS Chargers: 4
+Station open 24/7"
+51.834832,4.618082,Rotterdam,"Number of CCS Chargers: 2
+Station open 24/7"
+52.26907,-0.00901,Cambridge,"Number of CCS Chargers: 4
+Station open 24/7"
+43.586191,-1.419585,Biarritz,"Number of CCS Chargers: 4
+Station open 24/7"
+43.586073,-1.420776,Biarritz,"Number of CCS Chargers: 4
+Station open 24/7"
+52.532663,-0.32065,Peterborough,"Number of CCS Chargers: 6
+Station open 24/7"
+48.240666,17.360754,Bratislava,"Number of CCS Chargers: 2
+Station open 24/7"
+50.655355,5.710963,Liège,"Number of CCS Chargers: 4
+Station open 24/7"
+52.388762,9.99631,Hannover,"Number of CCS Chargers: 4
+Station open 24/7"
+48.588065,13.366667,Passau,"Number of CCS Chargers: 4
+Station open 24/7"
+48.589422,13.365369,Passau,"Number of CCS Chargers: 4
+Station open 24/7"
+53.161647,6.292686,Groningen,"Number of CCS Chargers: 3
+Station open 24/7"
+58.68492,13.84544,Mariestad,"Number of CCS Chargers: 4
+Station open 24/7"
+50.622096,8.897196,Gießen,"Number of CCS Chargers: 4
+Station open 24/7"
+50.688524,8.295916,Gießen,"Number of CCS Chargers: 4
+Station open 24/7"
+50.622937,8.894846,Gießen,"Number of CCS Chargers: 4
+Station open 24/7"
+62.33874,17.3538,Sundsvall,"Number of CCS Chargers: 4
+Station open 24/7"
+47.802835,12.178503,Rosenheim,"Number of CCS Chargers: 4
+Station open 24/7"
+60.88007,11.55093,Hamar,"Number of CCS Chargers: 4
+Station open 24/7"
+53.77046,-1.47691,Leeds,"Number of CCS Chargers: 6
+Station open 24/7"
+48.059266,10.846791,Augsburg,"Number of CCS Chargers: 4
+Station open 24/7"
+48.058328,10.847694,Augsburg,"Number of CCS Chargers: 4
+Station open 24/7"
+52.540755,8.112701,Osnabrück,"Number of CCS Chargers: 4
+Station open 24/7"
+52.539229,8.114598,Osnabrück,"Number of CCS Chargers: 4
+Station open 24/7"
+47.892208,11.731279,Munich,"Number of CCS Chargers: 4
+Station open 24/7"
+59.83325,6.81375,Vossavangen,"Number of CCS Chargers: 2
+Station open 24/7"
+44.08777,8.20626,Genoa,"Number of CCS Chargers: 4
+Station open 24/7"
+57.81289,13.41947,Borås,"Number of CCS Chargers: 4
+Station open 24/7"
+51.626603,4.869592,s-Hertogenbosch,"Number of CCS Chargers: 6
+Station open 24/7"
+46.685063,17.37977,Zalaegerszeg,"Number of CCS Chargers: 4
+Station open 24/7"
+37.575694,-1.800833,Lorca,"Number of CCS Chargers: 2
+Station open 24/7"
+50.817306,6.216629,Maastricht,"Number of CCS Chargers: 4
+Station open 24/7"
+50.817668,6.213854,Maastricht,"Number of CCS Chargers: 4
+Station open 24/7"
+51.467751,7.596959,Dortmund,"Number of CCS Chargers: 4
+Station open 24/7"
+45.885078,4.894234,Lyon,"Number of CCS Chargers: 4
+Station open 24/7"
+48.931751,12.708247,Regensburg,"Number of CCS Chargers: 4
+Station open 24/7"
+45.540178,13.726839,Trieste,"Number of CCS Chargers: 4
+Station open 24/7"
+45.78376,16.150672,Zagreb,"Number of CCS Chargers: 4
+Station open 24/7"
+44.22647,9.72971,Genoa,"Number of CCS Chargers: 4
+Station open 24/7"
+52.318183,13.494709,Berlin,"Number of CCS Chargers: 4
+Station open 24/7"
+56.01699,12.75934,Helsingborg,"Number of CCS Chargers: 4
+Station open 24/7"
+52.066539,4.738413,Rotterdam,"Number of CCS Chargers: 4
+Station open 24/7"
+52.223703,9.221469,Hannover,"Number of CCS Chargers: 4
+Station open 24/7"
+46.832458,6.859379,Neuchâtel,"Number of CCS Chargers: 4
+Station open 24/7"
+52.226977,9.232545,Hannover,"Number of CCS Chargers: 4
+Station open 24/7"
+51.1579,6.961815,Düsseldorf,"Number of CCS Chargers: 4
+Station open 24/7"
+51.156807,6.964803,Düsseldorf,"Number of CCS Chargers: 4
+Station open 24/7"
+46.68356,17.37848,Zalaegerszeg,"Number of CCS Chargers: 4
+Station open 24/7"
+45.889238,4.893502,Lyon,"Number of CCS Chargers: 4
+Station open 24/7"
+45.843868,5.070508,Lyon,"Number of CCS Chargers: 4
+Station open 24/7"
+51.468319,7.594014,Dortmund,"Number of CCS Chargers: 4
+Station open 24/7"
+51.158407,7.230332,Wuppertal,"Number of CCS Chargers: 4
+Station open 24/7"
+51.921616,5.603749,Arnhem,"Number of CCS Chargers: 2
+Station open 24/7"
+58.57675,16.1812,Norrköping,"Number of CCS Chargers: 4
+Station open 24/7"
+47.30968,4.501811,Dijon,"Number of CCS Chargers: 4
+Station open 24/7"
+57.2513,16.44875,Kalmar,"Number of CCS Chargers: 4
+Station open 24/7"
+47.815184,5.223172,Dijon,"Number of CCS Chargers: 4
+Station open 24/7"
+53.6376,-6.25894,Drogheda,"Number of CCS Chargers: 2
+Station open 24/7"
+49.241155,10.356121,Fürth,"Number of CCS Chargers: 4
+Station open 24/7"
+49.242629,10.352944,Fürth,"Number of CCS Chargers: 4
+Station open 24/7"
+56.02307,14.17307,Kristianstad,"Number of CCS Chargers: 4
+Station open 24/7"
+45.548541,6.158058,Annecy,"Number of CCS Chargers: 4
+Station open 24/7"
+45.547331,6.154824,Annecy,"Number of CCS Chargers: 4
+Station open 24/7"
+49.95581,14.062759,Prague,"Number of CCS Chargers: 4
+Station open 24/7"
+47.906573,11.717379,Munich,"Number of CCS Chargers: 4
+Station open 24/7"
+47.030917,5.10791,Dijon,"Number of CCS Chargers: 4
+Station open 24/7"
+47.032073,5.109707,Dijon,"Number of CCS Chargers: 4
+Station open 24/7"
+61.00769,24.42201,Hämeenlinna,"Number of CCS Chargers: 2
+Station open 24/7"
+60.9835,25.73731,Lahti,"Number of CCS Chargers: 2
+Station open 24/7"
+48.931044,12.705416,Regensburg,"Number of CCS Chargers: 4
+Station open 24/7"
+47.974493,3.197267,Auxerre,"Number of CCS Chargers: 4
+Station open 24/7"
+53.299981,9.532557,Hamburg,"Number of CCS Chargers: 4
+Station open 24/7"
+52.998531,9.181213,Bremen,"Number of CCS Chargers: 4
+Station open 24/7"
+53.000606,9.179514,Bremen,"Number of CCS Chargers: 4
+Station open 24/7"
+53.299087,9.53517,Hamburg,"Number of CCS Chargers: 4
+Station open 24/7"
+59.49497,8.2027,Skien,"Number of CCS Chargers: 4
+Station open 24/7"
+47.813347,5.22459,Dijon,"Number of CCS Chargers: 4
+Station open 24/7"
+48.157839,15.940398,Vienna,"Number of CCS Chargers: 4
+Station open 24/7"
+48.262403,2.722228,Melun,"Number of CCS Chargers: 4
+Station open 24/7"
+46.134416,4.766841,Lyon,"Number of CCS Chargers: 4
+Station open 24/7"
+57.1645,14.07578,Växjö,"Number of CCS Chargers: 4
+Station open 24/7"
+47.00627,11.50668,Innsbruck,"Number of CCS Chargers: 4
+Station open 24/7"
+60.42587,22.724,Turku,"Number of CCS Chargers: 2
+Station open 24/7"
+55.58492,12.258,Roskilde,"Number of CCS Chargers: 10
+Station open 24/7"
+45.876536,6.070678,Annecy,"Number of CCS Chargers: 4
+Station open 24/7"
+46.420537,4.865333,Lyon,"Number of CCS Chargers: 4
+Station open 24/7"
+47.327313,10.819309,Innsbruck,"Number of CCS Chargers: 4
+Station open 24/7"
+49.484491,10.211978,Würzburg,"Number of CCS Chargers: 4
+Station open 24/7"
+51.290152,12.137596,Leipzig,"Number of CCS Chargers: 6
+Station open 24/7"
+41.420526,2.00216,Barcelona,"Number of CCS Chargers: 4
+Station open 24/7"
+47.802,-0.1699,Le Mans,"Number of CCS Chargers: 4
+Station open 24/7"
+47.8077,-0.1659,Le Mans,"Number of CCS Chargers: 4
+Station open 24/7"
+46.774589,5.523009,Besançon,"Number of CCS Chargers: 2
+Station open 24/7"
+52.014675,5.12222,Utrecht,"Number of CCS Chargers: 2
+Station open 24/7"
+50.620347,8.362918,Gießen,"Number of CCS Chargers: 4
+Station open 24/7"
+51.38008,5.985541,Eindhoven,"Number of CCS Chargers: 4
+Station open 24/7"
+49.779352,10.246493,Würzburg,"Number of CCS Chargers: 4
+Station open 24/7"
+46.701811,0.371062,Poitier,"Number of CCS Chargers: 4
+Station open 24/7"
+53.110044,9.984058,Hamburg,"Number of CCS Chargers: 4
+Station open 24/7"
+50.726454,10.841634,Erfurt,"Number of CCS Chargers: 4
+Station open 24/7"
+53.109317,9.981663,Hamburg,"Number of CCS Chargers: 4
+Station open 24/7"
+50.724708,10.847168,Erfurt,"Number of CCS Chargers: 4
+Station open 24/7"
+53.400721,-7.827948,Ros Comain,"Number of CCS Chargers: 4
+Station open 24/7"
+50.573089,2.377188,Arras,"Number of CCS Chargers: 4
+Station open 24/7"
+59.27509,15.17753,Örebro,"Number of CCS Chargers: 4
+Station open 24/7"
+44.77544,10.86072,Modena,"Number of CCS Chargers: 6
+Station open 24/7"
+46.704579,0.371265,Poitier,"Number of CCS Chargers: 4
+Station open 24/7"
+49.485555,10.213267,Würzburg,"Number of CCS Chargers: 4
+Station open 24/7"
+52.014276,5.119229,Utrecht,"Number of CCS Chargers: 2
+Station open 24/7"
+55.00796,-3.08265,Carlisle,"Number of CCS Chargers: 4
+Station open 24/7"
+47.801229,12.177198,Rosenheim,"Number of CCS Chargers: 4
+Station open 24/7"
+51.370391,9.633405,Kassel,"Number of CCS Chargers: 4
+Station open 24/7"
+47.373952,16.093842,Szombathely,"Number of CCS Chargers: 4
+Station open 24/7"
+43.59197,7.036228,Nice,"Number of CCS Chargers: 4
+Station open 24/7"
+49.898302,9.394346,Würzburg,"Number of CCS Chargers: 4
+Station open 24/7"
+49.780852,10.244797,Würzburg,"Number of CCS Chargers: 4
+Station open 24/7"
+43.423464,5.993311,Toulon,"Number of CCS Chargers: 4
+Station open 24/7"
+48.264072,2.722024,Melun,"Number of CCS Chargers: 4
+Station open 24/7"
+52.750691,-6.202153,Kilkenny,"Number of CCS Chargers: 4
+Station open 24/7"
+44.5131,4.782,Nîmes,"Number of CCS Chargers: 4
+Station open 24/7"
+44.5149,4.78,Nîmes,"Number of CCS Chargers: 4
+Station open 24/7"
+47.307602,18.744217,Székesfehérvár,"Number of CCS Chargers: 4
+Station open 24/7"
+50.970743,3.844233,Gent,"Number of CCS Chargers: 4
+Station open 24/7"
+50.969463,3.841574,Gent,"Number of CCS Chargers: 4
+Station open 24/7"
+50.070186,6.880905,Diekirch,"Number of CCS Chargers: 4
+Station open 24/7"
+46.639636,14.451389,Klagenfurt,"Number of CCS Chargers: 4
+Station open 24/7"
+59.65339,17.08324,Västerås,"Number of CCS Chargers: 4
+Station open 24/7"
+50.85675,12.3132,Gera,"Number of CCS Chargers: 4
+Station open 24/7"
+50.860662,12.307977,Gera,"Number of CCS Chargers: 4
+Station open 24/7"
+59.17525,17.64293,Stockholm,"Number of CCS Chargers: 2
+Station open 24/7"
+43.413842,6.451935,Toulon,"Number of CCS Chargers: 4
+Station open 24/7"
+52.416656,10.783389,Braunschweig,"Number of CCS Chargers: 4
+Station open 24/7"
+60.89896,7.2108,Leikanger,"Number of CCS Chargers: 4
+Station open 24/7"
+51.450971,11.305148,Erfurt,"Number of CCS Chargers: 4
+Station open 24/7"
+52.05561,-0.6987,Luton,"Number of CCS Chargers: 4
+Station open 24/7"
+58.87322,5.72126,Sandnes,"Number of CCS Chargers: 4
+Station open 24/7"
+47.584781,13.157939,Salzburg,"Number of CCS Chargers: 4
+Station open 24/7"
+45.55925,14.244183,Rijeka,"Number of CCS Chargers: 4
+Station open 24/7"
+59.38093,13.46529,Karlstad,"Number of CCS Chargers: 4
+Station open 24/7"
+51.063214,13.571071,Dresden,"Number of CCS Chargers: 4
+Station open 24/7"
+51.060227,13.571959,Dresden,"Number of CCS Chargers: 4
+Station open 24/7"
+46.064687,6.409478,Geneva,"Number of CCS Chargers: 4
+Station open 24/7"
+47.680553,17.976528,Győr,"Number of CCS Chargers: 4
+Station open 24/7"
+49.944645,10.016529,Würzburg,"Number of CCS Chargers: 4
+Station open 24/7"
+59.3871,10.75119,Moss,"Number of CCS Chargers: 6
+Station open 24/7"
+49.944184,10.019955,Würzburg,"Number of CCS Chargers: 4
+Station open 24/7"
+58.37214,15.2948,Linköping,"Number of CCS Chargers: 4
+Station open 24/7"
+43.915744,1.309462,Toulouse,"Number of CCS Chargers: 4
+Station open 24/7"
+51.26566,0.61576,Southend-on-Sea,"Number of CCS Chargers: 4
+Station open 24/7"
+52.184387,5.670553,Arnhem,"Number of CCS Chargers: 2
+Station open 24/7"
+50.068492,6.880212,Diekirch,"Number of CCS Chargers: 4
+Station open 24/7"
+59.77503,5.48611,Haugesund,"Number of CCS Chargers: 4
+Station open 24/7"
+53.692558,10.320428,Hamburg,"Number of CCS Chargers: 4
+Station open 24/7"
+47.4186,-0.1315,Angers,"Number of CCS Chargers: 4
+Station open 24/7"
+47.4189,-0.1343,Angers,"Number of CCS Chargers: 4
+Station open 24/7"
+60.25416,11.18202,Bærum,"Number of CCS Chargers: 6
+Station open 24/7"
+50.619058,3.341152,Lille,"Number of CCS Chargers: 4
+Station open 24/7"
+50.619572,3.338944,Lille,"Number of CCS Chargers: 4
+Station open 24/7"
+49.244484,3.923935,Reims,"Number of CCS Chargers: 4
+Station open 24/7"
+48.693667,9.303297,Stuttgart,"Number of CCS Chargers: 4
+Station open 24/7"
+52.50884,-7.87441,Kilkenny,"Number of CCS Chargers: 4
+Station open 24/7"
+48.056232,16.711973,Eisenstadt,"Number of CCS Chargers: 4
+Station open 24/7"
+55.5562,12.95218,Malmö,"Number of CCS Chargers: 4
+Station open 24/7"
+45.197124,6.624119,Grenoble,"Number of CCS Chargers: 4
+Station open 24/7"
+58.0244,11.84746,Göteborg,"Number of CCS Chargers: 4
+Station open 24/7"
+48.837085,11.469313,Ingolstadt,"Number of CCS Chargers: 4
+Station open 24/7"
+48.836599,11.472234,Ingolstadt,"Number of CCS Chargers: 4
+Station open 24/7"
+52.1791,5.984281,Arnhem,"Number of CCS Chargers: 4
+Station open 24/7"
+49.242989,3.919106,Reims,"Number of CCS Chargers: 4
+Station open 24/7"
+60.083312,10.287055,Oslo,"Number of CCS Chargers: 6
+Station open 24/7"
+51.695845,7.966201,Münster,"Number of CCS Chargers: 4
+Station open 24/7"
+50.898384,10.725625,Erfurt,"Number of CCS Chargers: 4
+Station open 24/7"
+46.313348,1.416566,Limoges,"Number of CCS Chargers: 4
+Station open 24/7"
+46.314271,1.419247,Limoges,"Number of CCS Chargers: 4
+Station open 24/7"
+48.20593,8.621045,Schaffhausen,"Number of CCS Chargers: 4
+Station open 24/7"
+50.16723,1.755877,Amiens,"Number of CCS Chargers: 4
+Station open 24/7"
+57.168,12.2774,Halmstad,"Number of CCS Chargers: 4
+Station open 24/7"
+49.312948,11.474745,Nürnberg,"Number of CCS Chargers: 4
+Station open 24/7"
+54.014217,9.93325,Kiel,"Number of CCS Chargers: 4
+Station open 24/7"
+54.092671,9.92914,Kiel,"Number of CCS Chargers: 4
+Station open 24/7"
+50.487429,4.096217,Mons,"Number of CCS Chargers: 4
+Station open 24/7"
+50.491028,4.095774,Mons,"Number of CCS Chargers: 4
+Station open 24/7"
+43.3348,1.245,Toulouse,"Number of CCS Chargers: 4
+Station open 24/7"
+46.209502,9.026603,Bellinzona,"Number of CCS Chargers: 4
+Station open 24/7"
+60.48457,5.37679,Bergen,"Number of CCS Chargers: 4
+Station open 24/7"
+46.182242,9.001796,Bellinzona,"Number of CCS Chargers: 4
+Station open 24/7"
+48.425298,16.547783,Vienna,"Number of CCS Chargers: 4
+Station open 24/7"
+55.53682,9.7169,Vejle,"Number of CCS Chargers: 4
+Station open 24/7"
+43.3368,1.2449,Toulouse,"Number of CCS Chargers: 4
+Station open 24/7"
+55.30933,10.80495,Odense,"Number of CCS Chargers: 4
+Station open 24/7"
+63.31709,14.1692,Östersund,"Number of CCS Chargers: 4
+Station open 24/7"
+48.196397,14.52822,Linz,"Number of CCS Chargers: 4
+Station open 24/7"
+53.855673,13.333344,Stralsund,"Number of CCS Chargers: 4
+Station open 24/7"
+62.07428,9.12514,,"Number of CCS Chargers: 4
+Station open 24/7"
+43.22381,11.80217,Arezzo,"Number of CCS Chargers: 4
+Station open 24/7"
+50.651848,5.473755,Liège,"Number of CCS Chargers: 4
+Station open 24/7"
+56.06861,9.97816,Århus,"Number of CCS Chargers: 4
+Station open 24/7"
+56.78302,9.69481,Aalborg,"Number of CCS Chargers: 4
+Station open 24/7"
+58.91483,11.26034,Tønsberg,"Number of CCS Chargers: 4
+Station open 24/7"
+46.990174,7.475976,Bern,"Number of CCS Chargers: 4
+Station open 24/7"
+49.92578,7.936795,Mainz,"Number of CCS Chargers: 4
+Station open 24/7"
+50.647664,7.334521,Bonn,"Number of CCS Chargers: 4
+Station open 24/7"
+48.308819,7.791519,Strasbourg,"Number of CCS Chargers: 4
+Station open 24/7"
+48.206218,8.627155,Schaffhausen,"Number of CCS Chargers: 4
+Station open 24/7"
+58.40599,6.62316,Sandnes,"Number of CCS Chargers: 4
+Station open 24/7"
+60.70205,8.94337,Gjøvik,"Number of CCS Chargers: 4
+Station open 24/7"
+53.694396,10.324738,Hamburg,"Number of CCS Chargers: 4
+Station open 24/7"
+48.584287,10.178996,Ulm,"Number of CCS Chargers: 4
+Station open 24/7"
+47.449367,8.700137,Zürich,"Number of CCS Chargers: 6
+Station open 24/7"
+48.583937,10.175605,Ulm,"Number of CCS Chargers: 4
+Station open 24/7"
+49.207007,9.639273,Stuttgart,"Number of CCS Chargers: 4
+Station open 24/7"
+47.16577,0.63161,Tours,"Number of CCS Chargers: 4
+Station open 24/7"
+59.11234,10.11033,Tønsberg,"Number of CCS Chargers: 8
+Station open 24/7"
+47.140914,9.924473,Vaduz,"Number of CCS Chargers: 4
+Station open 24/7"
+47.129066,10.060559,Vaduz,"Number of CCS Chargers: 4
+Station open 24/7"
+49.205379,9.639696,Stuttgart,"Number of CCS Chargers: 4
+Station open 24/7"
+50.488351,9.708473,Gießen,"Number of CCS Chargers: 4
+Station open 24/7"
+47.011751,9.512371,Vaduz,"Number of CCS Chargers: 4
+Station open 24/7"
+48.309517,7.788855,Strasbourg,"Number of CCS Chargers: 4
+Station open 24/7"
+58.23655,8.29948,Kristiansand,"Number of CCS Chargers: 7
+Station open 24/7"
+49.162694,8.570788,Karlsruhe,"Number of CCS Chargers: 4
+Station open 24/7"
+49.044276,9.261639,Stuttgart,"Number of CCS Chargers: 4
+Station open 24/7"
+47.519215,12.065526,Rosenheim,"Number of CCS Chargers: 4
+Station open 24/7"
+49.16125,8.567226,Karlsruhe,"Number of CCS Chargers: 4
+Station open 24/7"
+48.467,1.579341,Versailles,"Number of CCS Chargers: 4
+Station open 24/7"
+48.468541,1.580005,Versailles,"Number of CCS Chargers: 4
+Station open 24/7"
+52.326149,7.430067,Münster,"Number of CCS Chargers: 4
+Station open 24/7"
+49.045334,9.266223,Stuttgart,"Number of CCS Chargers: 4
+Station open 24/7"
+46.959244,15.382045,Graz,"Number of CCS Chargers: 4
+Station open 24/7"
+50.055972,11.609148,Hof,"Number of CCS Chargers: 4
+Station open 24/7"
+52.173933,11.495112,Magdeburg,"Number of CCS Chargers: 4
+Station open 24/7"
+48.605321,9.632807,Ulm,"Number of CCS Chargers: 6
+Station open 24/7"
+46.919943,13.579276,Klagenfurt,"Number of CCS Chargers: 4
+Station open 24/7"
+47.366163,9.659167,Bregenz,"Number of CCS Chargers: 4
+Station open 24/7"
+47.836599,13.395919,Salzburg,"Number of CCS Chargers: 4
+Station open 24/7"
+47.47574,0.77685,Tours,"Number of CCS Chargers: 6
+Station open 24/7"
+47.50047,-0.49057,Angers,"Number of CCS Chargers: 6
+Station open 24/7"
+46.846522,8.632302,Altdorf,"Number of CCS Chargers: 4
+Station open 24/7"
+46.847886,8.633197,Altdorf,"Number of CCS Chargers: 4
+Station open 24/7"
+55.065192,9.366167,Flensburg,"Number of CCS Chargers: 6
+Station open 24/7"
+47.113372,8.232328,Luzern,"Number of CCS Chargers: 6
+Station open 24/7"
+50.441534,7.223985,Koblenz,"Number of CCS Chargers: 6
+Station open 24/7"
+50.440471,7.225629,Koblenz,"Number of CCS Chargers: 6
+Station open 24/7"
+36.286782,-5.312406,Gibraltar,now building
+45.169865,-0.334795,Bordeaux,now building
+49.614324,0.547145,Le Havre,now building
+49.614343,0.545844,Le Havre,now building
+53.886851,18.630851,Grudziądz,now building
+53.889183,18.630781,Grudziądz,now building
+42.95847,10.81657,Siena,now building
+52.313106,14.641469,Cottbus,now building
+41.60547,-8.551002,Braga,now building
+38.799534,-7.659698,Évora,now building
+38.800411,-7.661351,Évora,now building
+60.66761,17.07967,Gävle,now building
+57.06941,24.31657,Riga,now building
+45.73738,7.40538,Aosta,now building
+55.397326,-1.693232,Newcastle,now building
+41.604243,-8.549764,Braga,now building
+41.593947,-3.698254,Burgos,now building
+43.9292,10.22384,Pisa,now building
+37.535858,-8.184742,Portimão,now building
+37.536329,-8.182924,Portimão,now building
+52.43771,10.809069,Braunschweig,now building
+50.511752,14.052646,Usti Nad Labem,now building
+42.965803,-7.454554,Ourense,now building
+42.964918,-7.457615,Ourense,now building
+51.739103,6.59518,Duisburg,now building
+38.933955,-6.343053,Mérida,now building
+40.6147,14.96799,Salerno,now building
+45.030878,1.525098,Brive,now building
+45.030881,1.524313,Brive,now building
+58.92126,24.45761,Haapsalu,now building
+58.07469,24.51278,Pärnu,now building
+52.219064,19.461939,Łódź,now building
+37.334097,-6.789422,Huelva,now building
+40.769662,-6.286721,Salamanca,now building
+36.8982555,-4.4298849,Málaga,now building
+55.837232,-4.242494,Glasgow,now building
+37.331672,-6.802211,Huelva,Now building
+55.48423,22.58733,Sovetsk,now building
+51.587934,-0.629065,Reading,now building
